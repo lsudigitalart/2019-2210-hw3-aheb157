@@ -34,26 +34,29 @@ for (var i = 0; i < 10000; i=i+30){
     circle( i , 10000 ,100);
     
     fill (r,g,b);
-    circle(random(i),random(i),random(20));
-    circle(random(i),random(i),random(30));
+    circle(random(mouseX),random(mouseY),random(20));
+    circle(random(mouseX),random(mouseY),random(30));
     circle(random(i),random(i),random(30));   
     fill (r2,g2,b2);
-    circle(random(i),random(i),random(20));
+    circle(random(mouseX),random(mouseY),random(20));
+    circle(random(mouseX),random(mouseY),random(20));
     circle(random(i),random(i),random(30));
     
     fill (r3,g3,b3);
-    circle(random(i),random(i),random(20));
+    circle(random(mouseX),random(mouseY),random(20));
+    circle(random(mouseX),random(mouseY),random(20));
     circle(random(i),random(i),random(30));
 
     fill (r4,g4,b4);
-    circle(random(i),random(i),random(20));
+    circle(random(mouseX),random(mouseY),random(20));
+    circle(random(mouseX),random(mouseY),random(20));
     circle(random(i),random(i),random(30));
 
     fill (r5,g5,b5);
-    circle(random(i),random(i),random(20));
+    circle(random(mouseX),random(mouseY),random(20));
+    circle(random(mouseX),random(mouseY),random(20));
     circle(random(i),random(i),random(30));
 }
-
 }
 
 function windowResized(){
